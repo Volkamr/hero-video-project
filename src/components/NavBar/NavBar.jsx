@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import { TiThMenu } from "react-icons/ti";
 
 function NavBar(){
     return(
@@ -12,6 +13,7 @@ function NavBar(){
                 <li>Careers</li>
                 <li>Contact</li>
             </ul>
+            <TiThMenu className="navIcon"/>
         </div>
     )
 }

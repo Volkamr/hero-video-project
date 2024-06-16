@@ -44,3 +44,37 @@
     transition-duration: .5s;
     transition-timing-function: ease;
 }
+
+.navIcon{
+    visibility: hidden;
+    display: none;
+    font-size: medium;
+    color: #ACB2BE;
+}
+
+@media screen and (max-width: 940px){
+
+    .Nav{
+        padding: 2rem 5rem 4rem 5rem;
+    }
+
+}
+
+@media screen and (max-width: 620px){
+
+    .options{
+        visibility: hidden;
+    }
+
+    .Nav{
+        padding: 2rem;
+    }
+
+    .navIcon{
+        position: absolute;
+        right: 2rem;
+        visibility: visible;
+        display: block;
+    }
+
+}
